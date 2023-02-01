@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scuba Diving</title>
+    <link rel="icon" type="image/x-icon" href="./img/Logo(!).jpg">
+    <link rel="stylesheet" href="./Style_1.css">
+    <link rel="stylesheet" href="./flip_card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <input type="checkbox" id="check">
+
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars" style="font-size: 40px;"></i>
+            </label>
+            </div>
+
+            <label for="" class="logo"><img src="./img/Logo(!).jpg" alt=""></label>
+            <ul>
+                <li><a href="./Index_1.html">Home</a></li>
+                <li><a href="./courses.html">Courses</a></li>
+                <li><a href="./trainers.html">Trainers</a></li>
+                <li><a href="./Shop.html">Shop</a></li>
+                <li><a href="./hotel.html">Hotel</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="message">
+            <img src="./icons/message-suggestions-svgrepo-com.svg" alt="">
+        </div>
+
+        <section>
+            <div class="background-img">
+                <div class="Text">
+                    <h1>Welcome to Scuba Diving</h1>
+                    <p> Are you ready for the most wonderful experiences?</p>
+                </div>
+            </div>
+
+            <div class="Info">
+
+            </div>
+
+            <!-- Body -->
+
+            <div class="Parent">
+                <div>
+                    <h1 align="center">Explore the ocean with us!</h1>
+                </div>
+                <div>
+                    <h3 class="Gallery-heading" align="center">Gallery</h3>
+                </div>
+
+                <div class="parent-card">
+                    <div class="cards"><img src="./img/ocean4.jpg" alt="">
+                        <h3 align="center">Lorem, ipsum dolor.</h3>
+                    </div>
+                    <div class="cards"><img src="./img/ocean5.png" alt="">
+                        <h3 align="center">Lorem, ipsum dolor.</h3>
+                    </div>
+                    <div class="cards"><img src="./img/ocean3.webp" alt="">
+                        <h3 align="center">Lorem, ipsum dolor.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Footer-Parent">
+                <div class="footer1">
+                    <h2>Contact Adminstration</h2>
+
+                    <form action="" onsubmit="sendemail(); reset(); return false;">
+                        <div class="label">
+                            <label for="name">First Name(required)</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" id="name">
+                        </div>
+
+                        <div class="label">
+                            <label for="name">Last Name(required)</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" id="name1">
+                        </div>
+
+                        <div class="label">
+                            <label for="name">Email(required)</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" id="email">
+                        </div>
+
+                        <div class="label">
+                            <label for="name">Message(arrival,date,hotel...)</label>
+                        </div>
+                        <div class="textarea">
+                            <textarea placeholder="Comment" id="message"></textarea>
+                        </div>
+                        <button class="btn-send">Send</button>
+                    </form>
+                </div>
+                <div class="footer2">
+                    <h2>For Further Contact</h2>
+                    <div>
+                        Email: <label for=""> Info@scubadiving.com</label>
+                    </div>
+                    <div>
+                        Phone: <label for=""> (+1) 321 329 2338</label>
+                    </div>
+                    <div>
+                        Phone:<label for=""> (+31) 963 561 496</label>
+                    </div>
+                    <div>
+                        Reservation debt: - Hours of Operation
+                    </div>
+                    <div>
+                        Monday to Friday: 09:00 - 17:00 UTC+1</div>
+
+                    <div class="social-media">
+                        <i class="fa fa-youtube-play" style="font-size:24px"></i>
+                        <i class="fa fa-instagram" style="font-size:24px"></i>
+                        <i class="fa fa-facebook-f" style="font-size:24px"></i>
+                        <i class="fa fa-telegram" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="footer3">
+                    <h2>Jobs and Careers</h2>
+                    <div class="footer-child">-Diving Master Jobs</div>
+                    <div class="footer-child">-Diving Instructor Jobs</div>
+                    <div class="footer-child">-Public Realation Jobs</div>
+                    <div class="footer-child">-Mechanic Jobs</div>
+                    <div class="footer-child">-Water Sport Jobs</div>
+                    <div class="Contact-HR">
+                        <a href="">Contact with HR</a>
+                    </div>
+                    Email: <label for="">jobs@scubadiving.com</label>
+                </div>
+
+            </div>
+            <div class="line"></div>
+            <div class="copycright">
+                &copy;
+                Copyright 2023. Scuba Diving Inc
+            </div>
+
+            <i class="fas fa-calendar"></i>
+
+
+        </footer>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendemail() {
+                Email.send({
+                    Host: "smtp.gmail.com",
+                    Username: "abdulazizkhonmansurov@gmail.com",
+                    Password: "949BE5C98C696B3C5F5260A80700D0B77FF1",
+                    To: 'mrjanobmiss@gmail.com',
+                    From: document.getElementById("email").value,
+                    Subject: "New Contact Form Enquiry",
+                    Body: "Name:" + document.getElementById("name").value
+                        + "<br> Surname:" + document.getElementById("name1").value
+                        + "<br> Email:" + document.getElementById("email").value
+                        + "<br> Message:" + document.getElementById("message")
+                }).then(
+                    message => alert("Your message has been sent seccusfully")
+                );
+            }
+        </script>
+</body>
+
+</html>

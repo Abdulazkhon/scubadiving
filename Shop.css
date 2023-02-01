@@ -1,0 +1,253 @@
+.background {
+    background: grey;
+    width: 100%;
+    height: 150vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.shop-heading {
+    text-align: center;
+    padding-top: 13vh;
+    font-size: 25px;
+    width: 100%;
+    background-color: #f4efef;
+}
+
+
+.shop-nav {
+    width: 100%;
+    margin-top: 1px;
+    height: 50px;
+    background-color: #f4efef;
+    gap: 50px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.shop-nav label {
+    margin-top: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.shop-categ {
+    margin-top: 15px;
+    margin-left: 65%;
+}
+
+.card-columns {
+    width: 90%;
+    margin: 0 auto;
+    height: 60vh;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 60vh;
+
+}
+
+.card-2 {
+    display: flex;
+    width: 50%;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+.gear-cards {
+    border-radius: 15px;
+    background: linear-gradient(60deg, rgb(51, 95, 226), #e4ece6);
+    width: 45%;
+    height: 58vh;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: #2a2a2a 3px 6px;
+    transition: 0.2s ease-in-out;
+}
+
+.gear-cards:hover {
+    transform: scale(1.03);
+}
+
+.img-icon {
+    gap: 15px;
+    margin-left: 50px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.card-icons div {
+    margin-bottom: 25px;
+}
+
+
+.card-image img {
+    width: 28vh;
+    height: 28vh;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+
+.button-div {
+    padding-top: 20px;
+}
+
+.button-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 35px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.button-card:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background: #2a2a2a;
+    color: white;
+}
+
+
+@media screen and (max-width: 700px) and (min-width:300px) {
+    .background {
+        background: grey;
+        width: 100%;
+        height: 205vh;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .shop-heading {
+        text-align: center;
+        padding-top: 13vh;
+        font-size: 20px;
+        width: 100%;
+        background-color: #f4efef;
+    }
+
+
+    .shop-nav {
+        width: 100%;
+        margin-top: 1px;
+        height: 50px;
+        background-color: #f4efef;
+        display: flex;
+        margin-bottom: 25px;
+        font-size: 10px;
+    }
+
+    .shop-nav label {
+        margin-top: 10px;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .shop-categ {
+        margin-top: 1px;
+        margin-left: 20%;
+        display: flex;
+    }
+
+    .card-columns {
+        width: 90%;
+        margin: 0 auto;
+        height: 60vh;
+        display: block;
+        gap: 50px;
+    }
+
+    .card-1 {
+        display: flex;
+        justify-content: space-between;
+        width: 55vh;
+        height: 60vh;
+
+    }
+
+    .card-2 {
+        display: flex;
+        width: 55vh;
+        height: 60vh;
+        justify-content: space-between;
+    }
+
+    .gear-cards {
+        border-radius: 15px;
+        background: linear-gradient(60deg, rgb(51, 95, 226), #e4ece6);
+        width: 45%;
+        height: 50vh;
+        font-size: 10px;
+        text-align: center;
+        box-shadow: #2a2a2a 3px 6px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .gear-cards:hover {
+        transform: scale(1.03);
+    }
+
+    .img-icon {
+        gap: 8px;
+        display: flex;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .card-icons {
+        padding-top: 10px;
+    }
+
+    .card-icons div {
+        margin-bottom: 25px;
+    }
+
+    .img-icon i {
+        font-size: 10px;
+    }
+
+    .card-image img {
+        width: 18vh;
+        height: 20vh;
+        border-radius: 5px;
+        padding-bottom: 10px;
+    }
+
+
+    .button-div {
+        padding-top: 20px;
+    }
+
+    .button-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100px;
+        height: 35px;
+        border: 2px solid white;
+        background: transparent;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+
+    .button-card:hover {
+        border: 2px solid rgb(255, 255, 255);
+        background: #2a2a2a;
+        color: white;
+    }
+}
